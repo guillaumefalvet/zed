@@ -9,11 +9,16 @@
 {
   "format_on_save": "off",
   "icon_theme": "Material Icon Theme",
-  "ui_font_size": 16,
+  "buffer_font_family": "0xProto Nerd Font Mono",
   "buffer_font_size": 15,
+  "ui_font_size": 17,
+  "ui_font_family": ".SystemUIFont",
+  "buffer_line_height": { "custom": 1.5 },
   "theme": {
     "mode": "system",
     "light": "One Light",
     "dark": "ZedSpace Dark Theme"
-  }
+  },
+  "tabs": { "file_icons": true },
+  "format_on_save": "off"
 }
