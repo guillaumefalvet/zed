@@ -7,7 +7,11 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "terminal": {
+    "show_count_badge": true
+  },
   "git_panel": {
+    "show_count_badge": true,
     "dock": "left"
   },
   "edit_predictions": {
@@ -27,7 +31,7 @@
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "GitHub Dark Classic"
+    "dark": "VSCode Dark Modern"
   },
   "tabs": { "file_icons": true }
 }
