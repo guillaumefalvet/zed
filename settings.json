@@ -42,5 +42,10 @@
     "light": "One Light",
     "dark": "VSCode Dark Modern"
   },
-  "tabs": { "file_icons": true }
+  "tabs": { "file_icons": true },
+  "theme_overrides": {
+      "VSCode Dark Modern": {
+        "info": "#ff0000"
+      }
+    }
 }
