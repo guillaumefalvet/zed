@@ -45,7 +45,7 @@
   "tabs": { "file_icons": true },
   "theme_overrides": {
       "VSCode Dark Modern": {
-        "info": "#ff0000"
+        "info": "#0098EB"
       }
     }
 }
