@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "disable_ai": true,
   "git": {
     "inline_blame": {
       "delay_ms": 500
@@ -22,6 +23,11 @@
   "git_panel": {
     "show_count_badge": true,
     "dock": "left"
+  },
+  "languages": {
+    "TypeScript": {
+      "tab_size": 2
+    }
   },
   "edit_predictions": {
     "provider": "copilot"
@@ -43,9 +49,17 @@
     "dark": "VSCode Dark Modern"
   },
   "tabs": { "file_icons": true },
+  "soft_wrap": "editor_width",
   "theme_overrides": {
       "VSCode Dark Modern": {
-        "info": "#0098EB"
+        "info": "#0098EB",
+        "syntax": {
+          "enum": {
+            "color": "#FF0000",
+            "font_style": null,
+            "font_weight": null
+          },
+        }
       }
     }
 }
