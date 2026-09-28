@@ -51,15 +51,15 @@
   "tabs": { "file_icons": true },
   "soft_wrap": "editor_width",
   "theme_overrides": {
-      "VSCode Dark Modern": {
-        "info": "#0098EB",
-        "syntax": {
-          "enum": {
-            "color": "#FF0000",
-            "font_style": null,
-            "font_weight": null
-          },
+    "VSCode Dark Modern": {
+      "info": "#0098EB",
+      "syntax": {
+        "enum": {
+          "color": "#FF0000",
+          "font_style": null,
+          "font_weight": null
         }
       }
     }
+  }
 }
